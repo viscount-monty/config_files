@@ -1,5 +1,6 @@
 # Config File Repository
 ## Objectives
+- [ ] Bash script to install/update config files
 - [x] Bash
 - [x] Tmux
 - [ ] WezTerm
