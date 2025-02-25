@@ -146,6 +146,14 @@ alias gs='git status -s'
 # Make current directory published private GitHub repo
 alias gp='git init && git add . && git commit -m "initial commit" && gh repo  create --source=. --private --push'
 
+# Python virtual environment aliases
+# Create venv
+alias vc='python -m venv .venv'
+# Activate venv
+alias va='. .venv/bin/activate'
+# Deactivate venv
+alias vd='deactivate'
+
 # Add functions (aliases which can accept parameters)
 gl() {
     # Git log, one line, with pretty formatting
