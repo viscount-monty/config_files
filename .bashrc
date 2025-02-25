@@ -153,3 +153,6 @@ gl() {
 }
 # Add Neovim build from source to PATH
 export PATH="$HOME/neovim/bin:$PATH"
+
+# Source wezterm script for better wezterm integration
+source ~/wezterm.sh
