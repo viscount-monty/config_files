@@ -6,7 +6,7 @@
 -- https://github.com/wezterm/wezterm/blob/main/assets/shell-integration/wezterm.sh
 
 -- Download wezterm.sh command
--- curl -o wezterm.sh https://raw.githubusercontent.com/wezterm/wezterm/refs/heads/main/assets/shell-integration/wezterm.sh
+-- curl -o ~/.wezterm.sh https://raw.githubusercontent.com/wezterm/wezterm/refs/heads/main/assets/shell-integration/wezterm.sh
 
 -- Pull in the wezterm API
 local wezterm = require 'wezterm'
