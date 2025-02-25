@@ -148,7 +148,7 @@ alias gp='git init && git add . && git commit -m "initial commit" && gh repo  cr
 
 # Python virtual environment aliases
 # Create venv
-alias vc='python -m venv .venv'
+alias vc='python3 -m venv .venv'
 # Activate venv
 alias va='. .venv/bin/activate'
 # Deactivate venv
