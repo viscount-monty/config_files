@@ -155,4 +155,4 @@ gl() {
 export PATH="$HOME/neovim/bin:$PATH"
 
 # Source wezterm script for better wezterm integration
-source ~/wezterm.sh
+source ~/.wezterm.sh
